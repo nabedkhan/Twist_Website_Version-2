@@ -1,0 +1,393 @@
+h1, h2, h3, h4, h5{
+    font-family: 'Zilla Slab', serif;
+    color: #373737;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    color: #888888;
+}
+/*Header Area Start*/
+header a{
+    color: #373737;
+}
+.header-area{
+    margin: 15px 0px;
+}
+.header-absolute {
+    margin: 15px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.header-absolute a, .header-absolute a i {
+    color: #fff;
+}
+.logo a {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+}
+.logo a:hover{
+    color: #373737;
+}
+.header-menu{
+    margin-top: 2px;
+}
+.header-menu ul{
+    margin-bottom: 0px;
+}
+.header-menu ul li{
+    margin-right: 0px !important;
+    margin: 0px 20px;
+}
+.header-menu ul li a{
+    font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all ease 0.3s;
+}
+.header-menu ul li a:hover{
+    color: #0bbbc1;
+}
+.search i{
+    font-size: 20px;
+    color: #373737;
+    margin-top: 7px;
+}
+/*Header Area End*/
+
+/*Slider Area Start*/
+.hero-area{
+    background-image: url(../images/banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 150px 0px;
+}
+.slide-content{margin-top: 100px;}
+.slide-content h1{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.slide-content p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.slide-form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+.slide-form:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #0bbbc1;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.slide-form h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.slide-form h3 span {
+    color: #e60909;
+}
+.slide-form input {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.slide-form input:focus {
+    box-shadow: none;
+    border-color: #d1d1d1;
+}
+.slide-form button {
+    background-color: #0bbbc1;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    transition: all ease 0.2s;
+}
+.slide-form button:hover {
+    background-color: #303030;
+}
+/*Slider Area End*/
+/*Support Area Start*/
+.support{
+    background-color: #fbfbfb;
+    padding: 50px 0px;
+}
+.single-support h4{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.single-support p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
+/*Support Area End*/
+/*success Area Start*/
+.Success {
+    padding: 100px 0px;
+}
+.success-text {
+    margin: 40px 0px;
+}
+.success-text span {
+    font-size: 14px;
+    color: #fff;
+    background-color: #303030;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.success-text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.success-text p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.success-text button {
+    background-color: #0bbbc1;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    transition: all ease 0.2s;
+}
+.success-text button:hover {
+    background-color: #303030;
+}
+/*success Area End*/
+
+/*Service Area start*/
+.service-area {
+    margin-bottom: 50px;
+}
+.common-heading h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.single-service-item {
+    margin-top: 20px;
+    padding: 50px 20px;
+    transition: all ease 0.3s;
+}
+.single-service-item:hover {
+    background-color: #fbfbfb;
+    padding: 50px 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px 1px #ccccccab;
+}
+.single-service-item h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.single-service-item p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+/*Service Area End*/
+
+/*Hello Area Start*/
+.hello{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+.hello-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.hello-heading p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.hello-btn button{
+    float: right;
+    background-color: #0bbbc1;
+    border: none;
+    padding: 10px 30px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+    margin-top: 30px;
+}
+.hello-btn button:hover{
+    background-color: #fff;
+    color: #0bbbc1;
+}
+/*Hello Area End*/
+/*Team Area Start*/
+.team-member {
+    padding: 100px 0px;
+}
+.single-member {
+    background-color: #fbfbfb;
+    padding: 50px 40px;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    border: 2px solid transparent;
+    margin-bottom: 40px;
+}
+.single-member:hover{
+    border: 2px solid #0bbbc1;
+}
+.single-member h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.single-member span{
+    font-size: 14px;
+}
+.single-member p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.team-member .owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.team-member .owl-dots{
+    text-align: center;
+}
+.team-member .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    line-height: 30px;
+    display: inline-block;
+    margin: 3px;
+}
+.team-member .owl-dots .owl-dot.active {
+    background-color: #0bbbc1 !important;
+}
+/*Team Area End*/
+/*Blog Area start*/
+.blog-area{margin-bottom: 100px;}
+.single-blog-item{
+    background-color: #fbfbfb;
+    padding: 45px 27px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 1px #ccccccab;
+}
+.single-blog-item h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.single-blog-item p{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.single-blog-item button{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    display: table;
+    color: #0bbbc1;
+}
+.single-blog-item button i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+/*Blog Area end*/
+/*Footer Area Start*/
+.footer-area{
+    background-color: #131313;
+    padding: 100px 0px;
+}
+.footer-logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-logo p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    word-spacing: 1px;
+    color: #fff;
+}
+.footer-menu-1 ul{
+    margin-bottom: 0px;
+}
+.footer-menu-1 ul li{
+    padding-bottom: 7px;
+}
+.footer-menu-1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+.follow-us h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.follow-us ul{
+    margin-bottom: 0px;
+}
+.follow-us ul li a i{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.follow-us ul li a i:hover{
+    color: #fff;
+    background-color: #0bbbc1;
+    border: none;
+}
+/*Footer Area End*/
